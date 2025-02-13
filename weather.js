@@ -17,19 +17,19 @@ function checkweather(){
                 if (weatherCondition === "clear") {
                     cloudImage = "clear-sky.png";
                 } else if (weatherCondition === "clouds") {
-                    cloudImage = "cloudy.PNG";
+                    cloudImage = "cloudy.png";
                 } else if (weatherCondition === "haze") {
-                    cloudImage = "haze.PNG";
+                    cloudImage = "haze.png";
                 } else if (weatherCondition === "rain") {
-                    cloudImage = "rain.PNG";
+                    cloudImage = "rain.png";
                 } else if (weatherCondition === "thunderstorm") {
-                    cloudImage = "thunderstorm.PNG";
+                    cloudImage = "thunderstorm.png";
                 } else if (weatherCondition === "snow") {
                     cloudImage = "snow.png";
                 } else if (weatherCondition === "mist") {
-                    cloudImage = "mist.PNG";
+                    cloudImage = "mist.png";
                 } else {
-                    cloudImage = "weather-icon.WEBP"; 
+                    cloudImage = "weather-icon.webp"; 
                 }
 
                 document.getElementById("weather-info").innerHTML =
@@ -44,10 +44,10 @@ function checkweather(){
                 <div class="wind"> ${data.wind.speed}km/h</div>
                 <div class="wind-label">Wind Speed</div>
                 <div class="humidity-logo">
-                    <img src="humidity.PNG">
+                    <img src="/humidity.png">
                 </div>
                 <div class="wind-logo">
-                    <img src="wind.PNG">
+                    <img src="/wind.png">
                 </div>`;
                 
             }
