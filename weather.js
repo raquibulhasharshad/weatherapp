@@ -44,10 +44,10 @@ function checkweather(){
                 <div class="wind"> ${data.wind.speed}km/h</div>
                 <div class="wind-label">Wind Speed</div>
                 <div class="humidity-logo">
-                    <img src="/humidity.png">
+                    <img src="humidity.PNG">
                 </div>
                 <div class="wind-logo">
-                    <img src="/wind.png">
+                    <img src="wind.PNG">
                 </div>`;
                 
             }
