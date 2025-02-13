@@ -17,19 +17,19 @@ function checkweather(){
                 if (weatherCondition === "clear") {
                     cloudImage = "clear-sky.png";
                 } else if (weatherCondition === "clouds") {
-                    cloudImage = "cloudy.png";
+                    cloudImage = "cloudy.PNG";
                 } else if (weatherCondition === "haze") {
-                    cloudImage = "haze.png";
+                    cloudImage = "haze.PNG";
                 } else if (weatherCondition === "rain") {
-                    cloudImage = "rain.png";
+                    cloudImage = "rain.PNG";
                 } else if (weatherCondition === "thunderstorm") {
-                    cloudImage = "thunderstorm.png";
+                    cloudImage = "thunderstorm.PNG";
                 } else if (weatherCondition === "snow") {
                     cloudImage = "snow.png";
                 } else if (weatherCondition === "mist") {
-                    cloudImage = "mist.png";
+                    cloudImage = "mist.PNG";
                 } else {
-                    cloudImage = "weather-icon.webp"; 
+                    cloudImage = "weather-icon.WEBP"; 
                 }
 
                 document.getElementById("weather-info").innerHTML =
